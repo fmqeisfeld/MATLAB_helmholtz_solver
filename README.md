@@ -1,4 +1,4 @@
-# PYTHON_jobscraper
+# MATLAB Helmholtz-Solver
 
 ## Description
 This Matlab script demonstrates an application for a simple 1D-Helmholtz-solver by means of the Transfer-Matrix method.
