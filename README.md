@@ -18,10 +18,10 @@ interacts with some material or several layers of differenct materials.
 
 In order to compute the absolute power density in units of W/m^3, simply multiply the relative power density by the incident laser intensity.
 The main input-parameters are the following:
--*m_polar*: either 1 (for s-polarization) or 2 (for p-polarization)
--*lambda*: wavelength of the incident radiation in units of meters
--*theta*: angle of incidence
--*nelements*: nr of piecewise constant material elements
--*delta*: the widht of each element in units of nano-meters
--*dprof*-vector: an adjustable vector containing the density profile of the material. The same can be done for the temperature.
--*getEpsilon(lambda,Te,Ti,rho)*: a function, giving the relative permittivity as a function of electron temperature, ion-temperature, density and wavelength. 
+- *m_polar*: either 1 (for s-polarization) or 2 (for p-polarization)
+- *lambda*: wavelength of the incident radiation in units of meters
+- *theta*: angle of incidence
+- *nelements*: nr of piecewise constant material elements
+- *delta*: the widht of each element in units of nano-meters
+- *dprof*-vector: an adjustable vector containing the density profile of the material. The same can be done for the temperature.
+- *getEpsilon(lambda,Te,Ti,rho)*: a function, giving the relative permittivity as a function of electron temperature, ion-temperature, density and wavelength. 
