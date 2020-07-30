@@ -1,7 +1,7 @@
 # MATLAB Helmholtz-Solver
 
 ## Description
-This Matlab script demonstrates an application for a simple 1D-Helmholtz-solver by means of the Transfer-Matrix method.
+This Matlab script demonstrates an application for a simple 1D-Helmholtz-solver for inhomogeneous media by means of the Transfer-Matrix method.
 Note: The code is not utilizing Matlab's vectorization capabilities to increase performance, since it served as prototype for a C-port.
 Its main purpose is to provide you an idea of how laser light of a specific wavelength, polarization und angle of incidence 
 interacts with some material or several layers of differenct materials.
@@ -9,7 +9,7 @@ interacts with some material or several layers of differenct materials.
 
 ## Features
 - user defined, arbitrary density profile
-- you can adjust the angle of incidence and the polarizatio of the incoming light (s- or p-polarization)
+- you can adjust the angle of incidence and the polarization of the incoming light (s- or p-polarization)
 - plots the profile for the calculated absorbed power density
 - outputs the integral absorption, reflection and transmission
 - the material's permittivity can be modeled as a function of wavelenght, density and temperature
